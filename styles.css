@@ -72,14 +72,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid black;
+  border: 1px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(3deg);
 }
 .tag {
-  background-color: linear-gradient(white, transparent 90%);
+  background: radial-gradient(circle, white, transparent 90%);
   color: black;
   padding: 10px;
   border-radius: 10px;
@@ -87,8 +87,7 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: white;
+  margin-top: 20px;
 }
 .card {
   margin: 30px;
