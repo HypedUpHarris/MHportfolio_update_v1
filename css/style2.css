@@ -58,7 +58,7 @@ a:hover {
 header {
   text-align: center;
   background: linear-gradient(lightblue, transparent 40%),
-    url('images/sanfranbackground.jpg') no-repeat top center;
+    url('../images/sanfranbackground.jpg') no-repeat top center;
   background-size: 2000px 1000px;
   height: 850px;
   overflow: hidden;
@@ -71,7 +71,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 40%;
   border: 1px solid white;
   transition: all .5s;
 }
@@ -91,12 +91,13 @@ header .profile-image:hover {
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 40px;
   max-width: 500px;
   text-align: center;
-  background: linear-gradient(white, lightblue);
+  background: white;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  box-shadow: 0 15px 20px -15px;
   transition: all .5s;
 }
 .card:hover {
@@ -153,13 +154,10 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
