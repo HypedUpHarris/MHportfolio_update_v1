@@ -89,6 +89,14 @@ header .profile-image:hover {
 .location {
   margin-top: 20px;
 }
+.hogwarts {
+  margin-top: 12px;
+  border-radius: 10px;
+  transition: all .4s;
+}
+.hogwarts:hover {
+  transform: scale(1.1);
+}
 .card {
   margin: 30px;
   padding: 20px 40px;
